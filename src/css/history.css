@@ -1,0 +1,28 @@
+.historyEntry {
+    display: flex;
+    justify-content: space-evenly;
+    width: 95vw;
+    height: auto;
+    margin: 3px;
+    padding: 3px;
+
+    border-radius: 5px;
+    border: solid 3px var(--detail-color);
+    background-color: white;
+    box-shadow: 0px 0px 5px -2px black;
+}
+
+.historyText {
+    display: flex;
+    font-size: 40px;
+    
+    color: black;
+  
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+.historyList {
+    display: flex;
+    flex-direction: column;
+}
